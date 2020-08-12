@@ -1,0 +1,26 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console" ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp:o} {Level:u} {ConversationId} {ThreadId} {SourceContext:l} - {Message} {Exception}{NewLine}",
+          "formatProvider": "System.Globalization.CultureInfo::InvariantCulture",
+          "standardErrorFromLevel": "Information",
+          "theme": "Serilog.Sinks.SystemConsole.Themes.SystemConsoleTheme::Colored, Serilog.Sinks.Console"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext", "WithThreadId" ],
+    "Properties": {
+      "Application": "MassTransitScopeFilter"
+    }
+  }
+}

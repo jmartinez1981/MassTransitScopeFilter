@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitScopeFilter", "MassTransitScopeFilter\MassTransitScopeFilter.csproj", "{56C99A10-EC0E-4A3E-A829-C0B5EB9B2E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitScopeFilter.Tests", "MassTransitScopeFilter.Tests\MassTransitScopeFilter.Tests.csproj", "{9DDCED43-527B-45D6-835A-FAE35259226A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C99A10-EC0E-4A3E-A829-C0B5EB9B2E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C99A10-EC0E-4A3E-A829-C0B5EB9B2E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C99A10-EC0E-4A3E-A829-C0B5EB9B2E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C99A10-EC0E-4A3E-A829-C0B5EB9B2E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDCED43-527B-45D6-835A-FAE35259226A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDCED43-527B-45D6-835A-FAE35259226A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDCED43-527B-45D6-835A-FAE35259226A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDCED43-527B-45D6-835A-FAE35259226A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D165BCA-FB29-4AAE-9C37-E174DB095F1B}
+	EndGlobalSection
+EndGlobal
