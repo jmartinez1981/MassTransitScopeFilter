@@ -13,11 +13,11 @@ namespace MassTransitScopeFilter
 {
     public static class Program
     {
-        private const string hostname = "localhost";
+        private const string hostname = "[YOUR_HOSTNAME]";
         private const int port = 5672;
         private const string virtualHost = "";
-        private const string user = "TallRabbitMQ";
-        private const string pwd = "S2dg@'eJPFPfDuL)";
+        private const string user = "[YOUR_USER]";
+        private const string pwd = "[YOUR_PASSWORD])";
 
         public static void Main(string[] args)
         {
